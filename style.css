@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+.dark{
+  background-image: url("./images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height:100vh;
+}
+.dark > .card-back {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+.card-front {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+.card-front {
+  position: absolute;
+    background-image: url("./images/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 447px;
+  height: 245px;
+}
+.card-back {
+  position: absolute;
+    background-image: url("./images/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 447px;
+  height: 245px;
+}
+.card-back {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.card-back, .card-front{
+  scale: .8;
+}
+.form-container{
+  align-self: center;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  background-color:hsl(278, 68%, 11%);
+  border: none;
+}
+.container{
+  width: 100%;
+}
+.card-front > span >svg {
+  margin: 10px ;
+}
+.card-front > h2 {
+  color: white;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.cardname {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.card-back>h5{
+  color: white;
+  padding: 6.7rem 0 0 22rem;
+}
